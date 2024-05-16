@@ -6,5 +6,5 @@ module "webapp-prd" {
   tags            = var.tags
   startup_command = var.startup_command
   node_version    = var.node_version
-
+  subnet_id       = var.subnet_id
 }

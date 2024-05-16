@@ -28,3 +28,8 @@ variable "node_version" {
   description = "Definir versão do node"
   type        = string
 }
+
+variable "subnet_id" {
+  description = "Definir subnet"
+  type      = string
+}
